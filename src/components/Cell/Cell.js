@@ -1,9 +1,9 @@
 import React from 'react';
-import './Cell.css';
+import styles from'./Cell.css';
 
-const Main = () => (
-  <div className="cell">
+const Main = (props) => (
+  <div className={styles.cell}>
   </div>
 )
 
-export default Main;
+export default Main; 

@@ -1,9 +1,9 @@
 import React from 'react';
 import Cell from '../Cell';
-import './Table.css';
+import styles from './Table.css';
 
 const Table = () => (
-  <table className="table">
+  <table className={styles.table}>
     <tbody>
       <tr>
         <td><Cell /></td>

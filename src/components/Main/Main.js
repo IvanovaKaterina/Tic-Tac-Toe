@@ -1,10 +1,10 @@
 import React from 'react';
 import Table from '../Table';
 import Turn from '../Turn';
-import './Main.css';
+import styles from './Main.css';
 
 const Main = () => (
-  <div className="container">
+  <div className={styles.container}>
     <Turn />
     <Table />
   </div>
